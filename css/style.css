@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: #757575;
+}
+
+.title {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-title-color {
+  color: #2196f3;
+}
+.nav-elements-style {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+/* убирает подчеркивание ссылок */
+a {
+  text-decoration-line: none;
+  /* наследует значение свойства упредка */
+  color: inherit;
+}
+
+.contacts-link-style {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.address-map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail-hover:hover {
+  color: #2196f3;
+}
+
+.link-studio-index:active {
+  color: #2196f3;
+}
+
+.link-portfolio-portfolio:active {
+  color: #2196f3;
+}
+
+/*  порядок вставки псевоклассов по спец
+a:link { color: red; }
+a:visited { color: grey; }
+a:hover { color: blue; }
+a:active { background-color: yellow; } */
