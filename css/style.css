@@ -34,12 +34,15 @@ body {
   color: #212121;
 }
 
+.studio-link-current-color {
+  color: #2196f3;
+}
+
 /* убирает подчеркивание ссылок */
 a {
   text-decoration-line: none;
-  /* наследует значение свойства упредка */
+  /* наследует значение свойства предка */
   color: inherit;
-  cursor: url(/images/vector.svg), pointer;
 }
 
 a:focus {
@@ -64,16 +67,15 @@ a:focus {
   /* color: #ffffff; */
 }
 
-.mail-hover:hover {
+a:hover {
   color: #2196f3;
 }
 
-.link-studio-index:active {
-  color: #2196f3;
-}
-
-.link-portfolio-portfolio:active {
-  color: #2196f3;
+.porfolio-buttons button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*  порядок вставки псевоклассов по спец
@@ -150,40 +152,42 @@ a:active { background-color: yellow; } */
 }
 
 .button-1 {
+  /* position: absolute; */
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: roboto, sans-serif;
+
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
-.button-1-text-style {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
+.portfolio-link-current-color {
+  color: #2196f3;
 }
 
 .porfolio-buttons button {
-  background: #2196f3;
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: #f5f4fa;
   border-radius: 4px;
-}
-
-.porfolio-buttons p {
+  border: none;
+  cursor: pointer;
+  box-shadow: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #212121;
+  font-family: roboto, sans-serif;
 }
 
 .projects-container {
