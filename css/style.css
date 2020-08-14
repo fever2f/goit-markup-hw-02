@@ -49,6 +49,7 @@ a:focus {
 }
 
 .contacts-link-style {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -64,7 +65,7 @@ a:focus {
   /* color: #ffffff; */
 }
 
-a:hover {
+.hover-for-regular-links:hover {
   color: #2196f3;
 }
 
@@ -142,8 +143,7 @@ a:active { background-color: yellow; } */
 }
 
 .button-1 {
-  width: 200px;
-  height: 50px;
+  padding: 10px 32px;
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
@@ -164,6 +164,7 @@ a:active { background-color: yellow; } */
 .porfolio-buttons button {
   background-color: #f5f4fa;
   border-radius: 4px;
+  padding: 6px 22px;
   border: none;
   cursor: pointer;
   box-shadow: none;
