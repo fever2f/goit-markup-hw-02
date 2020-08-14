@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -46,18 +46,20 @@
     <main>
       <!--Шапка-->
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">
-          Заказать услугу
+        <h1 class="tagline">Эффективные решения для вашего бизнеса</h1>
+        <button class="button-1" type="button">
+          <span class="button-1-text-style">
+            Заказать услугу
+          </span>
         </button>
       </section>
 
       <!-- Особенности -->
       <section>
-        <ul>
+        <ul class="features">
           <li>
             <img src="./images/logo-feature-1.svg" alt="cпутник" />
-            <h3>Внимание к деталям</h3>
+            <h3 class="features-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -65,7 +67,7 @@
           </li>
           <li>
             <img src="./images/logo-feature-2.svg" alt="часы" />
-            <h3>Пунктуальность</h3>
+            <h3 class="features">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -73,7 +75,7 @@
           </li>
           <li>
             <img src="./images/logo-feature-3.svg" alt="график" />
-            <h3>Планирование</h3>
+            <h3 class="features">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -81,7 +83,7 @@
           </li>
           <li>
             <img src="./images/logo-feature-4.svg" alt="космонавт" />
-            <h3>Современные технологии</h3>
+            <h3 class="features">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -92,7 +94,7 @@
 
       <!-- Чем мы занимаемся -->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="about-work-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -123,9 +125,8 @@
 
       <!-- Наша команда -->
       <section>
-        <h2>Наша команда</h2>
-
-        <ul>
+        <h2 class="about-us-title">Наша команда</h2>
+        <ul class="about-our-team">
           <li>
             <img
               src="./images/member-1.jpg"
