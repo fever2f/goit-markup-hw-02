@@ -42,6 +42,11 @@ a {
   cursor: url(/images/vector.svg), pointer;
 }
 
+a:focus {
+  color: #2196f3;
+  outline-color: inherit;
+}
+
 .contacts-link-style {
   font-style: normal;
   font-weight: 500;
